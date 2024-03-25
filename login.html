@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+
+  table {
+    border-spacing: 30px;
+    
+  }
+
+  table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+        </style>
+              <script src="scripts.js"></script>
+
+<div class="dropdown">
+  <button class="dropbtn">Help</button>
+  <div class="dropdown-content">
+    <a href="#">Contact Us - Social Media Platforms</a>
+    <a href="#">Contact Us - Phone</a>
+    <a href="#">Tips & Explanations</a>
+  </div>
+</div>
+</ul>
+<img src="images/Login.png" id = "login">
+
+<a href= "register.html" id = "register"></a>
+<!-- <form name="frmUser" class="needs-validation " method="post" action="php"> -->
+  <div class="container">
+    <div class="row col-md-6 col-md-offset-3">
+      <div class="panel panel-primary">
+      <div class="panel-heading text-center">
+        <h1>Registration Form</h1>
+      </div>
+        <div class ="panel-body">
+          <form action="register.php" method="post">
+          <form>
+            <div class="form-group">
+              <label for="uname">Username Or Email</label>
+              <input type="text" class="form-control" id="uname" value="" required>
+            </div>
+            <div class="form-group">
+              <label for="pass">Password Or PIN</label>
+              <input type="text" class="form-control" id="pass" value="" required>
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-primary" id="btn1">
+            </div>
+          </div>
+        </div> 
+      </div>
+
+            </form>
+          </div>
+            <!-- <input type="text" class="form-control" id="uname" name="uname"placeholder="Username Or Email" value="" required>
+            <input type="text" class="form-control"  name="pass" id="pass" placeholder="Password Or PIN" value="" required> -->
+            <!-- <a href="Explore.html"><button type="button" id="loginbutton">Login</button></a> -->
+    <p>
+    <div class="invalid-feedback">
+      </div>
+    </p>
+    <p>
+    <label for="pass"></label>
+    </p>
+    <p>&nbsp;</p>
+  </form>
+</fieldset>
+</div>
+   
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<
+
+<div class="sidenav">
+  <a href="login.html">Logout</a>
+  <p>&nbsp;</p>
+  <a href="clothesshop.html">Shop</a>
+  <a href="leaveareview.html">Rate Us</a>
+  <a href="aboutus.html">About Us</a>
+  <p>&nbsp;</p>
+  <button class="dropdown-btn">Help 
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+      <a href="#">Contact Us - Social Media Platforms</a>
+      <a href="#">Contact Us - Phone</a>
+      <a href="#">Tips & Explanations</a>
+  </div>
+  <p>&nbsp;</p>
+  <a href="#contact">Search</a>
+</div>
+
+<script>
+  /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+  var i;
+  
+  for (i = 0; i < dropdown.length; i++) {
+    dropdown[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  }
+  </script>
+</body>
+</html>

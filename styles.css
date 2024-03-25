@@ -1,0 +1,1328 @@
+
+#loginheader {
+    position: relative;
+    left: 800px;
+    width: 400px;
+    height: 200px;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo {
+        position: relative;
+        width: 500px;
+        height: 400px;
+        left: 700px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        img {
+            position: absolute;
+            top: -10%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            max-height: 100%;
+        }    
+    
+}
+.logintextbox1 {
+        position: relative;
+        width: 700px;
+        height: 400px;
+        left: 700px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        img {
+            position: absolute;
+            top: -30%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            max-height: 100%;
+        }    
+    
+}
+.logintextbox2 {
+        position: relative;
+        width: 700px;
+        height: 400px;
+        left: 700px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        img {
+            position: absolute;
+            top: -100%;
+            left: 25%;
+            transform: translate(-50%, -50%);
+            max-width: 100%;
+            max-height: 100%;
+        }    
+    
+}
+#loginuser {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 48%;
+    left: 27%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#loginpassword {
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 60%;
+    left: 27%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#Library {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1200px;
+    width: 1400px;
+}
+
+#logout:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 240px;
+    top: 55%;
+    left: 43%;
+    content: url('Images/Logout.drawio.png');
+}
+
+
+#logout {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 56%;
+    left: 45%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#checkout {
+    position: absolute;
+    left: 92%;
+    width: 100px;
+    top: 50%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+#purchasecomplete {
+    position: absolute;
+    left: 35%;
+    top: 16%;
+}
+
+#aboutus:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 340px;
+    top: 16%;
+    left: 41%;
+    content: url('Images/aboutus.drawio.png');
+}
+
+#aboutus {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 20%;
+    left: 47%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#shop:hover {
+    position: absolute;
+    height: 150px;
+    width: 340px;
+    top: 55%;
+    left: 15%;
+    content: url('Images/shop.drawio.png');
+}
+
+#shop {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 55%;
+    left: 27%;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#leaveareview:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 150px;
+    width: 330px;
+    top: 55%;
+    left: 67%;
+    content: url('Images/leaveusareviewbutton.drawio.png');
+}
+
+#leaveareview {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 56%;
+    left: 70%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#star:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 160px;
+    width: 160px;
+    top: 8%;
+    bottom: 2%;
+    left: 25%;
+    content: url('Images/star.png');
+}
+
+#star {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 14%;
+    left: 27%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#star2:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 160px;
+    width: 440px;
+    top: 8%;
+    bottom: 2%;
+    left: 25%;
+    content: url('Images/star2.png');
+}
+
+#star2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 14%;
+    left: 38%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#star3:hover {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 160px;
+    width: 720px;
+    top: 8%;
+    bottom: 2%;
+    left: 25%;
+    content: url('Images/star3.png');
+}
+
+#star3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 13%;
+    left: 49%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#back {
+    position: absolute;
+    width: 250px;
+    height: 150px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 0%;
+    left: 0%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    content: url('Images/BACK.drawio.png');
+}
+
+#fname {
+    position: absolute;
+    width: 1220px;
+    height: 300px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 35%;
+    left: 26%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#submit {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 70%;
+    left: 48%;
+}
+
+#login {
+    position: relative;
+    margin:0 auto;
+    padding: 5px;
+    width: 700px;
+    height: 800px;
+    left: 25%;
+}
+
+#shopicon{
+    color: black;
+    border: #111;
+    border-radius: 10%;
+    border-width: 10%;
+    border-style: ridge;
+    font-family: 'Courier New', Courier, monospace;
+    height: 150px;
+    width: 200px;
+    font-size: xx-large;
+
+}
+
+#leaveareviewicon{
+    color: black;
+    border: #111;
+    border-radius: 10%;
+    border-width: 10%;
+    border-style: ridge;
+    font-family: 'Courier New', Courier, monospace;
+    height: 150px;
+    width: 200px;
+    font-size: xx-large;
+
+}
+
+#contactusicon{
+    color: black;
+    border: #111;
+    border-radius: 10%;
+    border-width: 10%;
+    border-style: ridge;
+    font-family: 'Courier New', Courier, monospace;
+    height: 150px;
+    width: 200px;
+    font-size: xx-large;
+
+}
+
+#registericon{
+    color: black;
+    border: #111;
+    border-radius: 10%;
+    border-width: 10%;
+    border-style: ridge;
+    font-family: 'Courier New', Courier, monospace;
+    height: 150px;
+    width: 200px;
+    font-size: xx-large;
+
+}
+
+#explore{
+    text-align: center;
+}
+
+#overlay {
+    display:none;    /* This make it initially hidden                                           */
+    position:fixed;  /* This makes it so it says in a fixed position even if they scroll around */
+    left:0px;        /* This positions the element to the left most position                    */
+    top:0px;         /* This positions the elment to the top most position                      */
+    width:100%;      /* This makes the element take up 100% of the parents width                */
+    height:100%;     /* This makes the element take up 100% of the parents height               */
+    background:#000; /* Give it a black background                                              */
+    opacity:0.5;     /* Change the opacity to 50% so that is see through.                       */
+    z-index:99999;   /* Change the z-index so it will be above everything else                  */
+ }
+ 
+ #popup {
+    display:none;
+    position:fixed;
+    left:50%;              /* left and top here position top left page                                        */
+    top:50%;               /* of the element to the center of the                                             */
+    width:300px;           /* Set the popup to have a specific width/height                                   */
+    height:150px;
+    margin-top:-75px;      /* To get the popup to center correctly we need                                    */
+    margin-left:-150px;    /* To displace the the top/left margins by half of the width/height                */
+    background:#FFFFFF;    /* Background of white                                                             */
+    border:2px solid #000; /* And give it a border                                                            */
+    z-index:100000;        /* Set z-index to 1 more than that of the overlay so the popup is over the overlay */
+ }
+
+#uname {
+    position:relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin:0 auto;
+    left: 40%;
+    bottom: 415px;
+    height: 35px;
+    width: 300px;
+    
+}
+
+#pass{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin:0 auto;
+    left: 28%;
+    bottom: 290px;
+    height: 35px;
+    width: 300px;
+}
+
+#username {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#password {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#pin {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#email {
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#firstname {
+    position:absolute;
+    left: 120%;
+    bottom: 90%;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#surname {
+    position:absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    left: 120%;
+    bottom: 80%;
+}
+
+#address1 {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 120%;
+    bottom: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#address2 {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 120%;
+    bottom: 55%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#email {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 120%;
+    bottom: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#username {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 120%;
+    bottom: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#confirmusername {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 120%;
+    bottom: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#password {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 120%;
+    bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#confirmpassword {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 120%;
+    bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pin {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 120%;
+    bottom: -15%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* #pin2 {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 120%;
+    bottom: 25%;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+
+
+#submit {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 120%;
+    top: 120%;
+}
+
+#proceed {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 120%;
+    top: 140%;
+}
+
+#btn1 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+
+#proceed2 {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    left: 41%;
+    top: 50%;
+}
+
+
+#register {
+    position: absolute;
+    width: 500px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 49%;
+    left: 44%;
+    color: rgb(252, 252, 252);
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+#twofactorguide {
+    position: absolute;
+    top: 5%;
+    left: 30%;
+    height: 1200px;
+    width: 1000px;
+}
+
+#twofactor {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+#twofactortext {
+    position: absolute;
+    top: 53%;
+    left: 49%;
+    height: 80px;
+    width: 100px;
+    border-color: black;
+    border-style:groove;
+    border-radius:25px;
+}
+
+#clothes {
+    border-radius: 20%;
+    border-color: black;
+    border-width: 100px;
+    border-style: ridge;
+    width: 500px;
+    height: 400px;
+}
+
+#clothestext {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 67%;
+    left: 20%;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#cart {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 2%;
+    left: 92%;
+}
+
+#cartcheckout {
+    position: absolute;
+    top: 13%;
+    left: 92%;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100px;
+    height: 100px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #clothing1 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 5%;
+    left: 6%;
+}
+
+#clothing2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 0%;
+    left: 25%;
+}
+
+#clothing3 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 0%;
+    left: 43%;
+}
+
+#clothing4 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 45%;
+    left: 3%;
+}
+
+#clothing5 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 45%;
+    left: 25%;
+}
+
+#clothing6 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top: 45%;
+    left: 43%;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 250px;
+  position: relative;
+  margin: auto;
+  right: 40%;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  position: relative;
+  right: 40%;
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+  #S1 {
+    position: absolute;
+    margin-top: 0px;
+    left: 6%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#M1 {
+    position: absolute;
+    margin-top: 0px;
+    left: 8%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#L1 {
+    position: absolute;
+    margin-top: 0px;
+    left: 10%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#XL1 {
+    position: absolute;
+    margin-top: 0px;
+    left: 12%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+
+}
+
+#S2 {
+    position: absolute;
+    margin-top: 0px;
+    left: 26%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#M2 {
+    position: absolute;
+    margin-top: 0px;
+    left: 28%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#L2 {
+    position: absolute;
+    margin-top: 0px;
+    left: 30%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#XL2 {
+    position: absolute;
+    margin-top: 0px;
+    left: 32%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#S3 {
+    position: absolute;
+    margin-top: 0px;
+    left: 44%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#M3 {
+    position: absolute;
+    margin-top: 0px;
+    left: 46%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#L3 {
+    position: absolute;
+    margin-top: 0px;
+    left: 48%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#XL3 {
+    position: absolute;
+    margin-top: 0px;
+    left: 50%;
+    top: 32%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#S4 {
+    position: absolute;
+    margin-top: 0px;
+    left: 6%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#M4 {
+    position: absolute;
+    margin-top: 0px;
+    left: 8%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#L4 {
+    position: absolute;
+    margin-top: 0px;
+    left: 10%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#XL4 {
+    position: absolute;
+    margin-top: 0px;
+    left: 12%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+
+}
+
+#S5 {
+    position: absolute;
+    margin-top: 0px;
+    left: 26%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#M5 {
+    position: absolute;
+    margin-top: 0px;
+    left: 28%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#L5 {
+    position: absolute;
+    margin-top: 0px;
+    left: 30%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#XL5 {
+    position: absolute;
+    margin-top: 0px;
+    left: 32%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#S6 {
+    position: absolute;
+    margin-top: 0px;
+    left: 44%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#M6 {
+    position: absolute;
+    margin-top: 0px;
+    left: 46%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#L6 {
+    position: absolute;
+    margin-top: 0px;
+    left: 48%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+#XL6 {
+    position: absolute;
+    margin-top: 0px;
+    left: 50%;
+    top: 78%;
+    border-color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:large
+}
+
+.P1::after {
+    font-weight: bold;
+    color: navy;
+    content: "£13.75 ";
+    
+}
+
+#P1 {
+    position: absolute;
+    left: 7%;
+    top: 28%;
+}
+
+.P2::after {
+    font-weight: bold;
+    color: navy;
+    content: "£10.55 ";
+    
+}
+
+#P2 {
+    position: absolute;
+    left: 27%;
+    top: 28%;
+}
+
+.P3::after {
+    font-weight: bold;
+    color: navy;
+    content: "£12.40 ";
+    
+}
+
+#P3 {
+    position: absolute;
+    left: 45%;
+    top: 28%;
+}
+
+.P4::after {
+    font-weight: bold;
+    color: navy;
+    content: "£7.99 ";
+    
+}
+
+#P4 {
+    position: absolute;
+    left: 7%;
+    top: 73%;
+}
+
+.P5::after {
+    font-weight: bold;
+    color: navy;
+    content: "£11.25 ";
+    
+}
+
+#P5 {
+    position: absolute;
+    left: 27%;
+    top: 73%;
+}
+
+.P6::after {
+    font-weight: bold;
+    color: navy;
+    content: "£10.99 ";
+    
+}
+
+#P6 {
+    position: absolute;
+    left: 45%;
+    top: 73%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+#twofactorsetup {
+    position: absolute;
+    left: 28%;
+}
+
+/* Fixed sidenav, full height */
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Style the sidenav links and the dropdown button */
+  .sidenav a, .dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width:100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-family: fantasy;
+  }
+  
+  /* On mouse-over */
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Main content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    font-size: 20px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+  
+  /* Add an active class to the active dropdown button */
+  .active {
+    background-color: green;
+    color: white;
+  }
+  
+  /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+  .dropdown-container {
+    display: none;
+    background-color: #262626;
+    padding-left: 8px;
+  }
+  
+  /* Optional: Style the caret down icon */
+  .fa-caret-down {
+    float: right;
+    padding-right: 8px;
+  }
+
+  .menu-toggle {
+    display: block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  .menu-toggle span {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    transition: transform 0.3s ease-in-out;
+  }
+  .menu-toggle span:nth-child(1) {
+    top: 0;
+  }
+  .menu-toggle span:nth-child(2) {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .menu-toggle span:nth-child(3) {
+    bottom: 0;
+  }
+  .sidebar.open ~ .menu-toggle span:nth-child(1),
+  .sidebar.open ~ .menu-toggle span:nth-child(3) {
+    transform: rotate(45deg);
+    top: 50%;
+  }
+  .sidebar.open ~ .menu-toggle span:nth-child(2) {
+    opacity: 0;
+  }
+  .sidebar.open ~ .menu-toggle span:nth-child(3) {
+    transform: rotate(-45deg);
+    bottom: 50%;
+  }

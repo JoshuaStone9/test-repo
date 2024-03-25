@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+      * {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+img {vertical-align: middle;}
+        </style>
+      
+
+<img src="Images/Cart.png" id="cart">
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="Images/imageplaceholder.png" style="width:100%">
+  <div class="text">Front</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="Images/1star.drawio.png" style="width:100%">
+  <div class="text">Side</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="Images/imageplaceholder.png" style="width:100%">
+  <div class="text">Back</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+ 
+
+<script>
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    if (n > slides.length) {slideIndex = 1}    
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+  }
+  </script>
+  
+  </body>
+
+  
+
+<img src="Images/imageplaceholder.png" id="clothing2">
+<img src="Images/imageplaceholder.png" id="clothing3">
+<img src="Images/imageplaceholder.png" id="clothing4">
+<img src="Images/imageplaceholder.png" id="clothing5">
+<img src="Images/imageplaceholder.png" id="clothing6">
+<table id="cartcheckout">
+    <tr>
+      <th>Total</th>
+    </tr>
+    <tr>
+      <td>Example Clothing 1 - £4.95</td>
+    </tr>
+    <tr>
+      <td>Example Clothing 2 - £7.95</td>
+    </tr>
+  </table>
+
+  <button type="button" id="S1" onclick="alert('Added To Cart!')">S</button>
+  <button type="button" id="M1" onclick="alert('Added To Cart!')">M</button>
+  <button type="button" id="L1" onclick="alert('Added To Cart!')">L</button>
+  <button type="button" id="XL1" onclick="alert('Added To Cart!')">XL</button>
+  <button type="button" id="S2" onclick="alert('Added To Cart!')">S</button>
+  <button type="button" id="M2" onclick="alert('Added To Cart!')">M</button>
+  <button type="button" id="L2" onclick="alert('Added To Cart!')">L</button>
+  <button type="button" id="XL2" onclick="alert('Added To Cart!')">XL</button>
+  <button type="button" id="S3" onclick="alert('Added To Cart!')">S</button>
+  <button type="button" id="M3" onclick="alert('Added To Cart!')">M</button>
+  <button type="button" id="L3" onclick="alert('Added To Cart!')">L</button>
+  <button type="button" id="XL3" onclick="alert('Added To Cart!')">XL</button>
+  <button type="button" id="S4" onclick="alert('Added To Cart!')">S</button>
+  <button type="button" id="M4" onclick="alert('Added To Cart!')">M</button>
+  <button type="button" id="L4" onclick="alert('Added To Cart!')">L</button>
+  <button type="button" id="XL4" onclick="alert('Added To Cart!')">XL</button>
+  <button type="button" id="S5" onclick="alert('Added To Cart!')">S</button>
+  <button type="button" id="M5" onclick="alert('Added To Cart!')">M</button>
+  <button type="button" id="L5" onclick="alert('Added To Cart!')">L</button>
+  <button type="button" id="XL5" onclick="alert('Added To Cart!')">XL</button>
+  <button type="button" id="S6" onclick="alert('Added To Cart!')">S</button>
+  <button type="button" id="M6" onclick="alert('Added To Cart!')">M</button>
+  <button type="button" id="L6" onclick="alert('Added To Cart!')">L</button>
+  <button type="button" id="XL6" onclick="alert('Added To Cart!')">XL</button>
+
+
+<span class="P1" id="P1">Price: </span>
+<span class="P2" id="P2">Price: </span>
+<span class="P3" id="P3">Price: </span>
+<span class="P4" id="P4">Price: </span>
+<span class="P5" id="P5">Price: </span>
+<span class="P6" id="P6">Price: </span>
+
+<a href="creditinfo.html"><button type="button" id="checkout" onclick="alert('All Credit Information Will Be Erased After Purchase Has Been Completed')">Checkout</button>
+
+  <div class="sidenav">
+    <a href="login.html">Logout</a>
+    <p>&nbsp;</p>
+    <a href="clothesshop.html">Shop</a>
+    <a href="leaveareview.html">Rate Us</a>
+    <a href="aboutus.html">About Us</a>
+    <p>&nbsp;</p>
+    <button class="dropdown-btn">Help 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">Contact Us - Social Media Platforms</a>
+        <a href="#">Contact Us - Phone</a>
+        <a href="#">Tips & Explanations</a>
+    </div>
+    <p>&nbsp;</p>
+    <a href="#contact">Search</a>
+  </div>
+
+  <script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+    
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
+        }
+      });
+    }
+    </script>
+  

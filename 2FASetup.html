@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        </style>
+<img src="images/BACK.drawio.png" id = "back">
+<img src="images/2FAsetup.png" id = "twofactorsetup">
+
+<div class="sidenav">
+    <a href="login.html">Logout</a>
+    <p>&nbsp;</p>
+    <a href="clothesshop.html">Shop</a>
+    <a href="leaveareview.html">Rate Us</a>
+    <a href="aboutus.html">About Us</a>
+    <p>&nbsp;</p>
+    <button class="dropdown-btn">Help 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-container">
+        <a href="#">Contact Us - Social Media Platforms</a>
+        <a href="#">Contact Us - Phone</a>
+        <a href="#">Tips & Explanations</a>
+    </div>
+    <p>&nbsp;</p>
+    <a href="#contact">Search</a>
+  </div>
+
+  <a href="Explore.html"><button type="button" id="proceed2">Proceed</button></a>
+
+  <script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+    
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
+        }
+      });
+    }
+    </script>

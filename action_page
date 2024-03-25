@@ -1,0 +1,10 @@
+if(isset($_POST['uname']))
+
+$con = mysqli_connect("localhost","admin","root","users");
+$uname = $_POST['uname'];
+$pass = $_POST['pass'];
+$sql = "INSERT INTO `iduser_names` (`Id`, `fldName`, `fldEmail`) VALUES ('0', '$uname', '$pass');"
+$rs = mysqli_query($con, $sql);
+<?php
+// database connection code
+// $con = mysqli_connect('localhost', 'database_user', 'database_password','database');

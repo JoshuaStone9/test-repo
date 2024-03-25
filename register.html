@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles2.css">
+    <style>
+        </style>
+
+
+
+
+<div class="dropdown">
+  <button class="dropbtn">Help</button>
+  <div class="dropdown-content">
+    <a href="#">Contact Us - Social Media Platforms</a>
+    <a href="#">Contact Us - Phone</a>
+    <a href="#">Tips & Explanations</a>
+  </div>
+
+<form name="frmRegister" class="needs-validation " method="post" action="X.php">
+    <label for="firstname"></label>
+    <p>
+    <input type="text" class="form-control" id="firstname" name="firstname"placeholder="Firstname" value="" required>
+    <div class="invalid-feedback">
+      </div>
+    </p>
+    <p>
+    <label for="surname"></label>
+    <input type="text" class="form-control"  name="surname" id="surname" placeholder="Surname" value="" required>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+    <label for="email"></label>
+    <input type="text" class="form-control"  name="email" id="email" placeholder="E-mail" value="" required>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+    <label for="username"></label>
+    <input type="text" class="form-control"  name="username" id="username" placeholder="Username" value="" required>
+    </p>
+    <p>
+    <label for="username"></label>
+    <input type="text" class="form-control"  name="username" id="confirmusername" placeholder="Confirm Username" value="" required>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+    <label for="password"></label>
+    <input type="text" class="form-control"  name="password" id="password" placeholder="Password" value="" required>
+    </p>
+    <p>
+    <label for="password"></label>
+    <input type="text" class="form-control"  name="password" id="confirmpassword" placeholder="Confirm Password" value="" required>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+    <label for="pin"></label>
+    <input type="text" class="form-control"  name="pin" id="pin" placeholder="PIN" value="" required>
+    <input type="text" class="form-control"  name="pin2" id="pin2" placeholder="Confirm PIN" value="" required>
+    </p>
+    <p>&nbsp;</p>
+    <p>
+    <label for="address1"></label>
+    <input type="text" class="form-control"  name="address1" id="address1" placeholder="Address Line 1" value="" required>
+    </p>
+    <p>
+    <label for="address2"></label>
+    <input type="text" class="form-control"  name="address2" id="address2" placeholder="Address Line 2" value="" required>
+    </p>
+    <p>
+        <input type="submit" name="Submit" id="submit" value="Submit"  button onclick="myFunction()" class="btn btn-primary btn-lg btn-block" > 
+        <p>&nbsp;</p>
+        <a href="2FASetup.html"><button type="button" id="proceed" disabled>Proceed</button></a>
+      </p>
+
+
+      <p id="demo"></p>
+      
+      <script>
+      function myFunction() {
+        var txt;
+        if (confirm("ENSURE ALL REQUIRED FIELDS ARE FILLED!")) {
+          document.getElementById("proceed").disabled = false;
+          txt = "You Are Now Registered!";
+        } else {
+          txt = "You pressed Cancel!";
+        }
+        document.getElementById("demo").innerHTML = txt;
+      }
+      </script>
+      
+
+      <div class="sidenav">
+        <a href="login.html">Logout</a>
+        <p>&nbsp;</p>
+        <a href="clothesshop.html">Shop</a>
+        <a href="leaveareview.html">Rate Us</a>
+        <a href="aboutus.html">About Us</a>
+        <p>&nbsp;</p>
+        <button class="dropdown-btn">Help 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#">Contact Us - Social Media Platforms</a>
+            <a href="#">Contact Us - Phone</a>
+            <a href="#">Tips & Explanations</a>
+        </div>
+        <p>&nbsp;</p>
+        <a href="#contact">Search</a>
+      </div>
+    
+      <script>
+        /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+        
+        for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+        </script>
+      </body>
+      </html>
+      
+  </form>
+</fieldset>
+</div>
+
+

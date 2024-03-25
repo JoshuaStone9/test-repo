@@ -1,0 +1,35 @@
+    <!-- <style>
+    .mask {
+        position: relative;
+        overflow: hidden;
+    }
+
+    input#pass {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0;
+    }
+    </style>
+    <script>
+
+var txt = document.getElementById("txtMask");
+var hdn = document.getElementById("pass");
+
+
+hdn.addEventListener("keyup", function(evt){
+
+  txt.value = '';
+   for(let i=0; i<hdn.value.length;i++)
+       {
+           txt.value +='@';
+      }         
+
+});
+</script>
+<div class="mask">
+<input type="text" id="txtMask" autocomplete="false">
+<input type="text" id="pass">
+</div> -->
+
+<input type="password" size="25" />
